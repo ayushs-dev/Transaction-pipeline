@@ -98,8 +98,12 @@ dotnet restore
 dotnet build
 Run the Application
 dotnet run --project TransactionsIngest
+
+
 Run Tests
 dotnet test
+
+
 Assumptions
 
 Transactions are uniquely identified by TransactionId.
