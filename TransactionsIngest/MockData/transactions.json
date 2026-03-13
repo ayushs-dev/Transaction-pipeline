@@ -1,0 +1,42 @@
+[
+    {
+      "transactionId": "T-1001",
+      "cardNumber": "4111111111111111",
+      "locationCode": "STO-01",
+      "productName": "Wireless Mouse",
+      "amount": 19.99,
+      "timestamp": "2026-02-27T08:50:10Z"
+    },
+    {
+      "transactionId": "T-1002",
+      "cardNumber": "4000000000000002",
+      "locationCode": "STO-02",
+      "productName": "USB-C Cable",
+      "amount": 25.00,
+      "timestamp": "2026-02-27T06:15:30Z"
+    },
+    {
+      "transactionId": "T-1003",
+      "cardNumber": "4000000000000013",
+      "locationCode": "STO-02",
+      "productName": "USB-C Keyboard",
+      "amount": 2.00,
+      "timestamp": "2026-03-11T08:15:30Z"
+    },
+    {
+      "transactionId": "T-2001",
+      "cardNumber": "4111111111111111",
+      "locationCode": "STO-01",
+      "productName": "Wireless Mouse",
+      "amount": 19.99,
+      "timestamp": "2026-03-12T17:00:00Z"
+    },
+    {
+      "transactionId": "T-2002",
+      "cardNumber": "4000000000000002",
+      "locationCode": "STO-02",
+      "productName": "USB-C Cable",
+      "amount": 25.00,
+      "timestamp": "2026-03-12T16:30:00Z"
+    }
+  ]
