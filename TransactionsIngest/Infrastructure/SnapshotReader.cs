@@ -17,4 +17,15 @@ public class SnapshotReader
         return JsonSerializer.Deserialize<List<Transaction>>(json, options)
                ?? new List<Transaction>();
     }
+
+    public List<Transaction> ReadSnapshotFromJson(string json)
+    {
+        var options = new JsonSerializerOptions
+        {
+            PropertyNameCaseInsensitive = true
+        };
+
+        return JsonSerializer.Deserialize<List<Transaction>>(json, options)
+               ?? new List<Transaction>();
+    }
 }
